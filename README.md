@@ -19,3 +19,8 @@ This is one Page application.where you can save text as a notes and also audio n
   <img src="https://user-images.githubusercontent.com/73518920/134820687-a3372c85-69fe-4868-a01e-6318e9be32e4.jpg" width="300" />
   <img src="https://user-images.githubusercontent.com/73518920/134820690-63414fe1-b108-4ba7-9552-41c2d57f7e1e.jpg" width="300" />
 </p>
+
+<p  align="center">
+  <img src="https://user-images.githubusercontent.com/73518920/134821361-9a9c2224-86e4-41bc-adfe-316974fb2f8f.gif" width="300"/>
+  
+</p>
