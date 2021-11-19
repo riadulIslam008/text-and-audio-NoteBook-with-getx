@@ -1,26 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:todo_app/MyApp/Controller/Binding/Bindings.dart';
-import 'package:todo_app/MyApp/View/HomeView.dart';
+import 'package:todo_app/App/theme/Theme_Data.dart';
+import 'package:todo_app/di/Binding.dart';
+import 'App/presentation/HomePageView/Home_View.dart';
 
 void main() {
-  // WidgetsFlutterBinding.ensureInitialized();
-
-  // await LocalDatabase.database();
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+ 
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'TODO APP',
       debugShowCheckedModeBanner: false,
-      initialBinding: Binding(),
       theme: ThemeData(
-        fontFamily: GoogleFonts.raleway().fontFamily,
+        textTheme: textTheme,
       ),
+      initialBinding: Binding(),
       home: HomeView(),
     );
   }
